@@ -10,7 +10,7 @@ const User = require('./models/User');
 
 const app = express();
 const port = 3000;
-const mongoURI = 'mongodb://localhost:27017/Hospitals';
+const mongoURI = 'mongodb+srv://dikshalomte6841:Diksha%401717@hms.ug6m17p.mongodb.net/?retryWrites=true&w=majority&appName=HMS';
 
 // Multer storage configuration
 const storage = multer.diskStorage({
